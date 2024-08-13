@@ -1,0 +1,175 @@
+/* Reseteo global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: url('static/images/ecology-background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contenedor */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Encabezado */
+.header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 60px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.header-content {
+  background: rgba(0, 0, 0, 0.5); /* Fondo oscuro para contraste con texto */
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.header-txt h1 {
+  font-size: 48px;
+  margin: 0 0 20px 0;
+}
+
+.header-txt p {
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+/* Sección Acerca de */
+.about {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px 0;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-txt h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.about-txt hr {
+  width: 50px;
+  height: 5px;
+  background-color: #28a745;
+  border: none;
+}
+
+.about-txt p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.about-img img {
+  width: 100%; /* Ajuste para imagenes flexibles */
+  max-width: 600px; /* Tamaño máximo de imagen */
+  border-radius: 10px;
+}
+
+/* Sección Sociales */
+.sociales {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px 0;
+  margin-bottom: 20px;
+}
+
+.sociales-content {
+  display: flex;
+  gap: 20px;
+}
+
+.social-item {
+  flex: 1;
+  text-align: center;
+}
+
+.social-item img {
+  width: 100%; /* Ajuste para imagenes flexibles */
+  max-width: 300px; /* Tamaño máximo de imagen */
+  border-radius: 10px;
+}
+
+.social-item h4 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.social-item p {
+  font-size: 16px;
+}
+
+/* Sección Información */
+.information {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px 0;
+  margin-bottom: 20px;
+}
+
+.information-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.information-txt h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.information-txt hr {
+  width: 50px;
+  height: 5px;
+  background-color: #28a745;
+  border: none;
+}
+
+.information-txt p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.information-img img {
+  width: 100%; /* Ajuste para imagenes flexibles */
+  max-width: 600px; /* Tamaño máximo de imagen */
+  border-radius: 10px;
+}
+
+/* Sección Contacto */
+.contact {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Texto de éxito */
+.text-success {
+  color: #28a745 !important;
+}
+
+/* Pie de página */
+footer {
+  background: #343a40; 
+  color: #fff; /* Asegura que el texto en el footer sea blanco */
+  text-align: center;
+  padding: 20px 0;
+}

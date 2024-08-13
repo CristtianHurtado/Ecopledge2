@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Recicla! - Ecopledge</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Ajustar el tamaño de las imágenes en la sección de reciclaje */
+        #como-reciclar .card-body img {
+            max-width: 80%; /* Asegura que las imágenes no se salgan del contenedor */
+            height: auto;    /* Mantiene la proporción original */
+            margin-bottom: 1rem; /* Espacio debajo de la imagen */
+        }
+
+        /* Opcional: Estilo adicional para las imágenes en la sección de información */
+        .info img {
+            max-width: 80%; /* Asegura que las imágenes no se salgan del contenedor */
+            height: auto;    /* Mantiene la proporción original */
+            border-radius: 0.5rem; /* Esquinas redondeadas */
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Ecopledge</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="recicla.html">¡Recicla!</a></li>
+                        <li class="nav-item"><a class="nav-link" href="comunidad.html">Comunidad</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Iniciar Sesión</a></li>
+                        <li class="nav-item"><a class="nav-link" href="register.html">Registrarse</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header-content container text-center">
+            <div class="header-txt">
+                <h1 class="display-4">¡Recicla con Ecopledge!</h1>
+                <p class="lead">
+                    Descubre cómo reciclar correctamente desde casa. Contribuye con tus ideas y ayuda a construir una comunidad más verde.
+                </p>
+                <a href="#informacion-reciclaje" class="btn btn-success btn-lg">Explorar Consejos</a>
+            </div>
+        </div>
+    </header>
+    
+    <section class="info py-5" id="informacion-reciclaje">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Reciclaje Eficaz en Casa</h2>
+                    <hr>
+                    <p>
+                        Reducir residuos es esencial para proteger nuestro planeta. Aprende a reciclar plásticos, metales, papel, y más desde tu hogar.
+                    </p>
+                    <p>
+                        Con cada acción, contribuyes a un futuro más limpio y sostenible. Únete a nuestra comunidad para compartir y aprender más.
+                    </p>
+                    <a href="#como-reciclar" class="btn btn-success">Ver Cómo Reciclar</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/b1.jpeg" class="img-fluid rounded" alt="Reciclaje en casa">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="how-to-recycle py-5 bg-light" id="como-reciclar">
+        <div class="container">
+            <h2 class="text-center mb-4">Guía de Reciclaje</h2>
+            <div class="accordion" id="accordionExample">
+                <!-- Plásticos -->
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Plásticos
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <img src="images/pet.jpg" class="img-fluid rounded mx-auto d-block mb-3" alt="Reciclaje de Plástico">
+                            <p>
+                                Limpia los plásticos y sepáralos en su contenedor adecuado para su reciclaje eficiente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Metales -->
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Metales
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <img src="images/metal.jpg" class="img-fluid rounded mx-auto d-block mb-3" alt="Reciclaje de Metales">
+                            <p>
+                                Enjuaga las latas y otros metales antes de reciclarlos. Los metales pueden ser reciclados indefinidamente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Papel y Cartón -->
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Papel y Cartón
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <img src="images/carton.jpg" class="img-fluid rounded mx-auto d-block mb-3" alt="Reciclaje de Papel y Cartón">
+                            <p>
+                                Asegúrate de que el papel y cartón estén limpios y secos antes de reciclarlos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vidrio -->
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Vidrio
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <img src="images/vidrio.jpeg" class="img-fluid rounded mx-auto d-block mb-3" alt="Reciclaje de Vidrio">
+                            <p>
+                                Enjuaga las botellas y frascos de vidrio antes de reciclarlos. El vidrio puede ser reciclado indefinidamente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tetra Pak -->
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Tetra Pak
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <img src="images/tetrapak.jpg" class="img-fluid rounded mx-auto d-block mb-3" alt="Reciclaje de Tetra Pak">
+                            <p>
+                                Enjuaga y vacía los envases de Tetra Pak antes de depositarlos en el contenedor de reciclaje correspondiente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pilas y Baterías -->
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Pilas y Baterías
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <img src="images/pilas.jpg" class="img-fluid rounded mx-auto d-block mb-3" alt="Reciclaje de Pilas y Baterías">
+                            <p>
+                                Llévalas a centros de reciclaje específicos para evitar la contaminación por metales pesados.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer py-4 bg-dark text-light">
+        <div class="container text-center">
+            <p>&copy; 2024 Ecopledge. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
